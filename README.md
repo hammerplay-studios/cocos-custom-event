@@ -1,7 +1,6 @@
 # Cocos Creator Custom Events
 
-If you're missing the C# delegates and events, which is a lot similar to `systemEvent.on()`. You can use this custom events system with more than 5 arguments limited by `node.on` also it only listens to instances.
-
+If you're missing the C# delegates and events, which is a lot similar to `systemEvent.on()`. The problem with `node.on` it can only work on the node instance and is limited to 5 arguments. This is a much more elegant solution.
 ## Usage
 In the GameManger.ts
 
