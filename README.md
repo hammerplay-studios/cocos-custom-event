@@ -4,9 +4,11 @@ If you're missing the C# delegates and events, which is a lot similar to `system
 
 ## Usage
 In the GameManger.ts
+
 `public  static  readonly  onScoreChanged:  LiteEvent<number> =  new  LiteEvent<number> ();`
 
 Can trigger the event by using
+
 `GameManager.onScoreChanged.trigger (this.score);`
 
 On the other class (UIManager.ts)
